@@ -11,7 +11,7 @@ namespace Architecture.MVVM
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new CountriesFormMVVM());
+            Application.Run(new CountriesFormMVVM_v1());
         }
     }
 }

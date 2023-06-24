@@ -1,6 +1,6 @@
 ﻿namespace Architecture.MVVM
 {
-    partial class CountriesFormMVVM
+    partial class CountriesFormMVVM_v2
     {
         /// <summary>
         ///  Required designer variable.
@@ -61,7 +61,7 @@
             label1.TabIndex = 2;
             label1.Text = "List of countries";
             // 
-            // CountriesFormMVVM
+            // CountriesFormMVVM_v2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -69,8 +69,8 @@
             Controls.Add(label1);
             Controls.Add(countriesListBox);
             Controls.Add(getCountriesButton);
-            Name = "CountriesFormMVVM";
-            Text = "MVVM";
+            Name = "CountriesFormMVVM_v2";
+            Text = "MVVM V2";
             ResumeLayout(false);
             PerformLayout();
         }
