@@ -7,7 +7,8 @@
   - [1.2. MVP (Model-View-Presenter):](#12-mvp-model-view-presenter)
   - [1.3. MVVM (Model-View-ViewModel):](#13-mvvm-model-view-viewmodel)
 - [2. Conclusion](#2-conclusion)
-- [3. References](#3-references)
+- [3. Pattern comparison](#3-pattern-comparison)
+- [4. References](#4-references)
 
 # 1. Introduction
 
@@ -21,7 +22,7 @@
   - One to one relationship between View and Controller.
 - In MVC, the Model and View are usually decoupled, with the Controller acting as an intermediary.
   - The View observes the Model for changes and updates itself accordingly.
-![MVC diagram](Images/MvcDiagram.png)
+    ![MVC diagram](Images/MvcDiagram.png)
 
 ## 1.2. MVP (Model-View-Presenter):
 
@@ -50,6 +51,10 @@
 - MVC and MVP are older patterns, while MVVM gained popularity with the rise of frameworks like WPF (Windows Presentation Foundation) and AngularJS.
 - It's important to note that the descriptions provided here are simplified, and in practice, variations and adaptations of these patterns can exist depending on the specific technologies and frameworks used.
 
-# 3. References
+# 3. Pattern comparison
+
+![Pattern comparison](/Images/PatternComparison.png)
+
+# 4. References
 
 - [GUI Architectures - Martin Fowler](https://www.martinfowler.com/eaaDev/uiArchs.html)
